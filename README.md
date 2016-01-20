@@ -9,9 +9,10 @@ You’ll create a simple app and then build it using Gradle.
 
 ##What you’ll need
 
-About 15 minutes
-A favorite text editor or IDE
-JDK 6 or later
+- About 15 minutes
+- A favorite text editor or IDE
+- JDK 6 or later
+
 ##How to complete this guide
 
 Like most Spring Getting Started guides, you can start from scratch and complete each step, or you can bypass basic setup steps that are already familiar to you. Either way, you end up with working code.
@@ -39,10 +40,14 @@ Create the directory structure
 
 In a project directory of your choosing, create the following subdirectory structure; for example, with mkdir -p src/main/java/hello on *nix systems:
 
+```
+
 └── src
     └── main
         └── java
             └── hello
+
+```
 
 
 Within the src/main/java/hello directory, you can create any Java classes you want. For simplicity’s sake and for consistency with the rest of this guide, Spring recommends that you create two classes: HelloWorld.java and Greeter.java.
@@ -379,7 +384,7 @@ task wrapper(type: Wrapper) {
 // end::wrapper[]
 ```
 
- >There are many start/end comments embedded here. This makes it possible to extract bits of the build file into this guide for the detailed explanations above. You don’t need them in your production build file.
+ >***Note:*** There are many start/end comments embedded here. This makes it possible to extract bits of the build file into this guide for the detailed explanations above. You don’t need them in your production build file.
  
 ##Summary
 
@@ -387,4 +392,4 @@ Congratulations! You have now created a simple yet effective Gradle build file f
 
 Want to write a new guide or contribute to an existing one? Check out our contribution guidelines.
 
- >All guides are released with an ASLv2 license for the code, and an Attribution, NoDerivatives creative commons license for the writing.
+ >***Note:*** All guides are released with an ASLv2 license for the code, and an Attribution, NoDerivatives creative commons license for the writing.
